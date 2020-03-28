@@ -9,5 +9,7 @@ public class Lot {
     private int step;
     private LocalDate startDate;
     private LocalDate finishDate;
+    private Status status;
+
 
 }
