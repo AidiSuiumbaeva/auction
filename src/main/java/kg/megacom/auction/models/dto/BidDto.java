@@ -11,6 +11,6 @@ public class BidDto {
     private LocalDate addDate;
     private double bidValue;
     private boolean active;
-    private Lot lot;
-    private Customers customer;
+    private Lot lotDto;
+    private Customers customerDto;
 }

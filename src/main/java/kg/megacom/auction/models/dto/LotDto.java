@@ -14,5 +14,5 @@ public class LotDto {
     private double step;
     private LocalDate startDate;
     private LocalDate finishDate;
-    private Statuses statusId;
+    private StatusDto statusIdDto;
 }
