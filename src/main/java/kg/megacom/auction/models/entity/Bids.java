@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.Date;
 
 @Data
 @Entity
@@ -14,7 +15,7 @@ public class Bids {
     @Column(name = "bid_id")
     private Long id;
 
-    private LocalDate addDate;
+    private Date addDate;
     private double bidValue;
 
     private boolean active;
